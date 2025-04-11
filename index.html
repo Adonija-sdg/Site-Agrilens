@@ -638,20 +638,22 @@ textarea {
           <p>Téléphone: +22661440428</p>
       </div>
 
-      <!-- Formulaire de contact -->
+     
+     <!-- Formulaire de contact -->
       <div class="contact-box">
-          <form action="#" method="post">
-              <div class="input-group">
-                  <input type="text" id="name" name="name" placeholder="Votre Nom" required>
-              </div>
-              <div class="input-group">
-                  <input type="email" id="email" name="email" placeholder="Votre Email" required>
-              </div>
-              <div class="input-group">
-                  <textarea id="message" name="message" placeholder="Votre Message" required></textarea>
-              </div>
-              <button type="submit" class="submit-btn">Envoyer</button>
-          </form>
+        <form action="https://formspree.io/f/xaneaglv" method="POST">
+          <div class="input-group">
+              <input type="text" name="name" placeholder="Votre Nom" required>
+          </div>
+          <div class="input-group">
+              <input type="email" name="email" placeholder="Votre Email" required>
+          </div>
+          <div class="input-group">
+              <textarea name="message" placeholder="Votre Message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Envoyer</button>
+      </form>
+      
       </div>
 
       <!-- Réseaux sociaux -->
